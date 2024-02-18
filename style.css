@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #036D6C;
+
+}
+
+/*-----------------------------
+    Header Style Start Here
+----------------------------- */
+
+.header {
+
+    padding: 24px 0 24px 0;
+}
+
+.container {
+    max-width: 1306px;
+    margin: auto;
+    padding: 0 30px;
+
+
+}
+
+.nav-parent {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn :first-child {
+    color: #FFFFFF;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-item a:hover {
+    color: #F6C228;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+}
+
+.nav-item-btn {
+    display: flex;
+    gap: 159px;
+    align-items: center;
+
+}
+
+.btn-sign-up {
+    background-color: #F6C228;
+    padding: 14px 32px;
+    border-radius: 35px;
+}
+
+.line {
+    width: 0.3px;
+    height: 35px;
+    background-color: beige;
+}
+
+
+
+/* Header Style end */
+
+
+
+/*------------------------
+  hero style css
+---------------------- */
+.hero {
+    min-height: 868px;
+    background-color: #036D6C;
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    padding-top: 96px;
+    gap: 68px;
+}
+
+.hero-text {
+    padding-top: 107px;
+}
+
+.hero-love-btn {
+    padding: 14px 32px;
+    background-color: #058280;
+    border-radius: 35px;
+    color: #FFFFFF;
+}
+
+.main-heading {
+    font-size: 49px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.main-heading-color {
+    color: #F6C228;
+}
+
+.hero-p {
+    padding-bottom: 52px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn :first-child {
+    padding: 12px 32px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    color: #0E0D0D;
+}
+
+.hero-btn :last-child {
+    padding: 12px 32px;
+    background-color: #036D6C;
+    border: solid 1px #FFFFFF;
+    border-radius: 35px;
+    color: #FFFFFF;
+}
+
+/* hero styles css end */
+
+/*-------------------------------------
+   Blog-insurance styles start here 
+-------------------------------------*/
+
+.Blog-insurance {
+    box-shadow: 10px 20px 20px rgb(20, 19, 19);
+    padding-top: 112px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: center;
+    max-width: 1302px;
+
+
+}
+
+.second-line {
+    display: flex;
+    justify-content: center;
+    max-width: 1298px;
+
+
+
+}
+
+/* #insurance-img-05 {
+    color: #0E0D0D;
+} */
+
+
+
+.first-line :hover {
+    background-color: #036D6C;
+    border-radius: 6px;
+}
+
+.second-line :hover {
+    background-color: #036D6C;
+    border-radius: 6px;
+}
+
+
+
+
+/*----------------------------
+   Responsiv For Tablet 
+---------------------------*/
+
+@media screen and (max-width: 991px) {
+
+    /* nav-header Start*/
+
+    .none {
+        display: none;
+    }
+
+    .nav-logo img {
+        width: 100px;
+    }
+
+    .nav-item-btn {
+        margin-left: -90px;
+    }
+
+    .btn {
+        width: 213px;
+        margin-left: -80px;
+    }
+
+    .btn-sign-up {
+        padding: 10px 20px;
+    }
+
+    .nav-item {
+        width: 200px;
+    }
+
+    /* nav-header end*/
+
+    /* hero section start */
+
+    .hero-text {
+        max-width: 334px;
+        padding-top: unset;
+    }
+
+    .hero-love-btn {
+        padding: 10px 20px;
+    }
+
+    .main-heading {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        max-width: 315px;
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    .make-clam,
+    .find-agent {
+        font-size: 10px;
+    }
+
+    .hero-img img {
+        max-width: 300px;
+    }
+
+    /* hero section end */
+}
+
+/*-----------------------------------
+    Responsive For Smartphone
+--------------------------------- */
+@media screen and (max-width: 767px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .nav-item {
+        display: none;
+    }
+}

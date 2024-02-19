@@ -170,6 +170,7 @@
 
 .insurance-img:hover {
     background-color: #036D6C;
+    border-radius: 6px;
 
 }
 
@@ -240,6 +241,69 @@
 .left {
     max-width: 176px;
 }
+
+/* ----------------------------------
+    Article Family Style end here 
+------------------------------------*/
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    align-items: center;
+
+}
+
+.first-blog {
+    max-width: 322px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #FFFFFF;
+
+}
+
+
+.first-blog h2 {
+    font-size: 36px;
+
+}
+
+.span-price {
+    color: #F6C228;
+}
+
+.first-blog p {
+    font-size: 24px;
+}
+
+.second-blog {
+    /* padding-top: 97px; */
+    color: #FFFFFF;
+}
+
+.blog {
+    display: flex;
+    gap: 75px;
+}
+
+.blog p {
+    max-width: 498px;
+}
+
+.blog a {
+
+    padding: 14px 32px;
+    color: rgb(0, 0, 0);
+    background-color: #F6C228;
+    border-radius: 35px;
+    font-weight: 500;
+}
+
+.tab-mobail {
+    display: none;
+}
+
+
 
 
 
@@ -363,6 +427,43 @@
     }
 
     /* family Style end here */
+
+    .only-desktop {
+        display: none;
+    }
+
+    /* This Section Only For Tablet And Mobail */
+
+    .tab-mobail {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .get-price {
+        font-size: 48px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .commit-p {
+        font-size: 24px;
+        color: #bdbbbb;
+
+    }
+
+    .our-tec {
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .price-btn {
+        padding: 14px 32px;
+        color: rgb(0, 0, 0);
+        background-color: #F6C228;
+        border-radius: 35px;
+        font-weight: 500;
+    }
 }
 
 /*-----------------------------------
@@ -389,5 +490,39 @@
 
     .article-family {
         flex-direction: column;
+    }
+
+    /* This Section Only For Tablet And Mobail */
+
+    .tab-mobail {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .get-price {
+        font-size: 48px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .commit-p {
+        font-size: 24px;
+        color: #bdbbbb;
+
+    }
+
+    .our-tec {
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .price-btn {
+        padding: 14px 32px;
+        color: rgb(0, 0, 0);
+        background-color: #F6C228;
+        border-radius: 35px;
+        font-weight: 500;
+
     }
 }

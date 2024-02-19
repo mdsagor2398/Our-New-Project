@@ -161,6 +161,7 @@
     grid-template-columns: repeat(3, 1fr);
     box-shadow: 0px 20px 20px rgb(238, 238, 238);
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .insurance img {
@@ -172,21 +173,73 @@
 
 }
 
-/* 
-.normal-div {
-    display: flex;
-    gap: 38px;
-    justify-content: center;
+/* ----------------------------------
+    Article Family Style start here 
+------------------------------------*/
+
+.family {
+    background-image: url(all-img/Family-banner.png);
+
+
 }
 
-.gap-div {
+.article-family {
     display: flex;
-    gap: 65px;
-    justify-content: center;
+    gap: 54px;
+    padding-top: 120px;
+}
 
+.family-img {
+    margin-left: -60px;
 
-} */
+}
 
+.family-text {
+    padding-top: 160px;
+}
+
+.family-btn,
+.family-btn-2 {
+    padding: 8px 32px;
+    background-color: #036D6C;
+    border-radius: 35px;
+    color: whitesmoke;
+}
+
+.family-btn-2 {
+    background-color: #F6C228;
+}
+
+.family-main-header {
+    max-width: 605px;
+    font-size: 40px;
+    padding-top: 31px;
+    padding-bottom: 28px;
+    line-height: 50px;
+}
+
+.family-p {
+    padding-bottom: 40px;
+}
+
+.cames-first {
+    color: #058280;
+}
+
+.family-rating {
+    display: flex;
+    gap: 70px;
+    padding-top: 54px;
+
+}
+
+.rigth {
+    max-width: 117px;
+}
+
+.left {
+    max-width: 176px;
+}
 
 
 
@@ -274,6 +327,42 @@
     }
 
     /* Blog-insurance end */
+
+    /* family Style start here */
+
+    .family-img img {
+        max-width: 450px;
+        padding-left: 20px;
+    }
+
+    .family-text {
+        padding-top: 30px;
+    }
+
+    .family-main-header {
+        font-size: 32px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+    }
+
+    .family-btn,
+    .family-btn-2 {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .family-p {
+        padding-bottom: 20px;
+    }
+
+    .family-rating {
+        gap: 60px;
+        padding-top: 24px;
+
+    }
+
+    /* family Style end here */
 }
 
 /*-----------------------------------
@@ -294,5 +383,11 @@
     .insurance {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+
+    /* family Style start here */
+
+    .article-family {
+        flex-direction: column;
     }
 }

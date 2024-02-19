@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    background-color: #036D6C;
+
 
 }
 
@@ -18,6 +18,7 @@
 .header {
 
     padding: 24px 0 24px 0;
+    background-color: #036D6C;
 }
 
 .container {
@@ -154,43 +155,37 @@
    Blog-insurance styles start here 
 -------------------------------------*/
 
-.Blog-insurance {
-    box-shadow: 10px 20px 20px rgb(20, 19, 19);
-    padding-top: 112px;
+
+.insurance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0px 20px 20px rgb(238, 238, 238);
+    margin-top: 30px;
 }
 
-.first-line {
+.insurance img {
+    padding: 45px 35px;
+}
+
+.insurance-img:hover {
+    background-color: #036D6C;
+
+}
+
+/* 
+.normal-div {
     display: flex;
+    gap: 38px;
     justify-content: center;
-    max-width: 1302px;
-
-
 }
 
-.second-line {
+.gap-div {
     display: flex;
+    gap: 65px;
     justify-content: center;
-    max-width: 1298px;
 
 
-
-}
-
-/* #insurance-img-05 {
-    color: #0E0D0D;
 } */
-
-
-
-.first-line :hover {
-    background-color: #036D6C;
-    border-radius: 6px;
-}
-
-.second-line :hover {
-    background-color: #036D6C;
-    border-radius: 6px;
-}
 
 
 
@@ -261,17 +256,43 @@
     }
 
     /* hero section end */
+
+    /* Blog-insurance start */
+
+    .insurance {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    .insurance-img {
+        max-width: 300px;
+    }
+
+    .insurance-img:hover {
+        background-color: #036D6C;
+    }
+
+    /* Blog-insurance end */
 }
 
 /*-----------------------------------
     Responsive For Smartphone
 --------------------------------- */
 @media screen and (max-width: 767px) {
+
     .content {
         flex-direction: column-reverse;
     }
 
     .nav-item {
         display: none;
+    }
+
+    /* Blog-insurance start */
+
+    .insurance {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
     }
 }

@@ -277,7 +277,6 @@
 }
 
 .second-blog {
-    /* padding-top: 97px; */
     color: #FFFFFF;
 }
 
@@ -303,8 +302,81 @@
     display: none;
 }
 
+/* Doctor-family style start here */
 
+.header-2 {
+    background-color: #036D6C;
 
+}
+
+.sub-btn-main-head {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.sub-btn {
+    padding: 13px 30px;
+    background-color: #036D6C;
+    border-radius: 35px;
+    color: #FFFFFF;
+}
+
+.main-head {
+    font-size: 48px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.love-about-us {
+    color: #F6C228;
+}
+
+.doctor-famiy {
+    display: flex;
+    gap: 63px;
+    justify-content: center;
+}
+
+.text {
+    max-width: 519px;
+    padding-top: 111px;
+}
+
+.text h4 {
+    font-size: 28px;
+}
+
+.text p {
+    padding-top: 20px;
+    padding-bottom: 36px;
+}
+
+.text h6 {
+    font-size: 24px;
+    color: #F6C228;
+}
+
+.icon {
+    position: relative;
+    right: -430px;
+    top: -70px;
+}
+
+#first-icon {
+    font-size: 30px;
+    color: #34f765;
+    background-color: #bdbbbb;
+    border-radius: 30px;
+}
+
+#second-icon {
+    font-size: 30px;
+    color: #f734ed;
+    background-color: #bdbbbb;
+    border-radius: 30px;
+}
+
+/* Doctor-family style end here */
 
 
 /*----------------------------
@@ -435,6 +507,7 @@
     /* This Section Only For Tablet And Mobail */
 
     .tab-mobail {
+        display: block;
         text-align: center;
         padding-top: 40px;
     }
@@ -464,6 +537,29 @@
         border-radius: 35px;
         font-weight: 500;
     }
+
+    /* Doctor-family style start here */
+
+    .img img {
+        max-width: 300px;
+    }
+
+    .text {
+        padding: unset;
+    }
+
+    .text h6 {
+        padding: unset;
+    }
+
+    .icon {
+        position: relative;
+        right: -280px;
+        top: -70px;
+    }
+
+    /* Doctor-family style end here */
+
 }
 
 /*-----------------------------------
@@ -525,4 +621,17 @@
         font-weight: 500;
 
     }
+
+    /* Doctor-family style start here */
+
+    .main-head {
+        font-size: 32px;
+        padding-top: 35px;
+    }
+
+    .doctor-famiy {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

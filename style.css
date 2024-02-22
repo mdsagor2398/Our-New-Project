@@ -304,9 +304,8 @@
 
 /* Doctor-family style start here */
 
-.header-2 {
-    background-color: #036D6C;
-
+.doctor-famiy-blogs {
+    max-width: 1780px;
 }
 
 .sub-btn-main-head {
@@ -449,6 +448,133 @@
 
 /* Happy Family Styles end Here */
 
+/* help-side styles start here */
+
+.help-three-blogs {
+    display: flex;
+    padding-top: 156px;
+    padding-bottom: 80px;
+}
+
+.Help-side {
+    max-width: 567px;
+    padding-top: 156px;
+    padding-bottom: 120px;
+}
+
+.support-btn {
+    padding: 13px 32px;
+    background-color: #036D6C;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.help-main-header {
+    max-width: 567px;
+    font-size: 48px;
+    padding-top: 16px;
+    padding-bottom: 36px;
+
+}
+
+.help-side p {
+    max-width: 519px;
+    font-size: 20px;
+}
+
+.finger-color {
+    color: #036D6C;
+}
+
+.contact-Customer {
+    display: flex;
+    gap: 40px;
+
+}
+
+.contact-side,
+.Customer-side {
+    max-width: 333px;
+    padding: 40px 27px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(224, 224, 224);
+}
+
+.contact-side h5,
+.Customer-side h5 {
+    font-size: 24px;
+    color: #F6C228;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.contact-side p,
+.Customer-side p {
+    padding-bottom: 28px;
+}
+
+.Contact-Customer-btn {
+    padding: 15px 30px;
+    background-color: #F6C228;
+    border-radius: 35px;
+}
+
+
+
+/* help-side styles end here  */
+
+/* yellow-banner style start here */
+
+.yellow-banner {
+    background-image: url(all-img/Holud-banner.png);
+    max-width: 1300px;
+    max-height: 240px;
+    margin-left: -45px;
+    border-radius: 20px;
+
+
+}
+
+.yellow-item {
+    padding: 72px 64px;
+    display: flex;
+    gap: 437px;
+
+}
+
+.yellow-text {
+    padding-top: 15px;
+}
+
+.yellow-text p {
+    font-size: 24px;
+}
+
+.yellow-text h1 {
+    font-size: 36px;
+    padding-bottom: 16px;
+}
+
+.yellow-span {
+    color: #058280;
+}
+
+.yellow-btn {
+
+    padding-top: 70px;
+}
+
+.yellow-btn a {
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+
+
+
+}
 
 /*----------------------------
    Responsiv For Tablet 
@@ -644,6 +770,59 @@
 
     /* Happy Family Styles end Here */
 
+    /* help-side styles start here */
+
+    .help-three-blogs {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .help-main-header {
+        min-width: 756px;
+        font-size: 48px;
+        text-align: center;
+        padding-right: 60px;
+    }
+
+    .help-side p {
+        min-width: 688px;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    /* help-side styles end here  */
+
+    /* Yellow blog style start here */
+
+    .yellow-banner {
+        max-height: 340px;
+
+
+    }
+
+    .yellow-item {
+        padding: 32px 24px;
+        display: flex;
+        gap: 50px;
+
+    }
+
+    .yellow-text {
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+
+    .yellow-text p {
+        font-size: 22px;
+    }
+
+    .yellow-text h1 {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    /* Yellow blog style start here */
 }
 
 /*-----------------------------------
@@ -759,5 +938,233 @@
         padding-top: 20px;
         padding-bottom: 10px;
     }
+
+
+    /* help-side styles start here */
+
+    .help-three-blogs {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+
+    .help-main-header {
+        min-width: 450px;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    .help-side p {
+        min-width: 430px;
+        font-size: 16px;
+
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    /* Blog-insurance start */
+
+    .insurance {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /* family Style start here */
+
+    .article-family {
+        flex-direction: column;
+    }
+
+    .family-rating {
+        gap: 100px;
+        padding-bottom: 10px;
+    }
+
+    /* This Section Only For Tablet And Mobail */
+
+    .tab-mobail {
+        min-height: 450px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .get-price {
+        font-size: 48px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .commit-p {
+        font-size: 24px;
+        color: #bdbbbb;
+
+    }
+
+    .our-tec {
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .price-btn {
+        padding: 14px 32px;
+        color: rgb(0, 0, 0);
+        background-color: #F6C228;
+        border-radius: 35px;
+        font-weight: 500;
+
+    }
+
+    /* Doctor-family style start here */
+
+    .main-head {
+        font-size: 32px;
+        padding-top: 35px;
+    }
+
+    .doctor-famiy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Happy Family Styles Start Here */
+
+    .happy-blogs {
+        gap: 20px;
+    }
+
+    .blog-1 {
+        max-width: 150px;
+        padding: 30px 16px;
+    }
+
+    .blog-1 h3 {
+        padding-top: 15px;
+        padding-bottom: 32px;
+    }
+
+    .blog-2 {
+        max-width: 150px;
+        padding: 30px 15px;
+    }
+
+    .blog-2 h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .blog-3 {
+        max-width: 150px;
+        padding: 10px 20px;
+    }
+
+    .blog-3 h3 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    /* help-side styles start here */
+
+    .help-three-blogs {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+
+    .help-main-header {
+        max-width: 300px;
+        font-size: 40px;
+        padding-top: 30px;
+        padding-right: 90px;
+    }
+
+    .help-side p {
+        max-width: 300px;
+        padding-right: 70px;
+        font-size: 16px;
+
+
+    }
+
+    .Contact-Customer-btn {
+        padding: 10px 15px;
+        background-color: #F6C228;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    .contact-side,
+    .Customer-side {
+        min-width: 150px;
+        padding: 32px 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px rgb(224, 224, 224);
+    }
+
+    .contact-side h5,
+    .Customer-side h5 {
+        font-size: 20px;
+        color: #F6C228;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .contact-side p,
+    .Customer-side p {
+        display: none;
+    }
+
+    /* help-side styles start here */
+
+
+    .yellow-item {
+        flex-direction: column;
+    }
+
+    .yellow-text {
+        padding-top: 33px;
+        text-align: center;
+    }
+
+    .yellow-text p {
+        font-size: 18px;
+    }
+
+    .yellow-text h1 {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    .yellow-btn {
+        text-align: center;
+        position: relative;
+        top: -95px;
+        left: 16px;
+
+    }
+
+    .yellow-btn a {
+        padding: 10px 15px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        color: black;
+        font-weight: 400;
+
+
+
+    }
+
 
 }

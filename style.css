@@ -571,10 +571,21 @@
     border-radius: 30px;
     color: black;
     font-weight: 600;
-
-
-
 }
+
+.footer {
+    background-color: #036D6C;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
 
 /*----------------------------
    Responsiv For Tablet 
@@ -823,6 +834,10 @@
     }
 
     /* Yellow blog style start here */
+
+
+
+
 }
 
 /*-----------------------------------
@@ -1163,6 +1178,17 @@
         font-weight: 400;
 
 
+
+    }
+
+    /* Footer style start here */
+
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        font-size: 15px;
 
     }
 
